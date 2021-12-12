@@ -50,7 +50,7 @@ def format_line(line: str) -> str:
 
 
 def content() -> list:
-    file = open('exec_3b.txt', 'r');
+    file = open('exec_03.txt', 'r');
     content: list = file.read().splitlines();
     file.close();
     

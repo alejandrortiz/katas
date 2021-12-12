@@ -6,7 +6,7 @@ def run() -> None:
 
 
 def content() -> list:
-    file = open('exec_1.txt', 'r');
+    file = open('exec_01.txt', 'r');
     content = file.read().splitlines();
     file.close();
     

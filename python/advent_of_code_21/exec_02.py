@@ -43,7 +43,7 @@ def instruction_number(instruction: str, action: str) -> int:
 
 
 def content() -> list:
-    file = open('exec_2.txt', 'r');
+    file = open('exec_02.txt', 'r');
     content = file.read().splitlines();
     file.close();
     
